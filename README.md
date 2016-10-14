@@ -1,6 +1,6 @@
 # Android Boilerplate
 
-Sample Android app that we use at [ribot](http://ribot.co.uk) as a reference for new Android projects. It demonstrates the architecture, tools and guidelines that we use when developing for the Android platform (https://github.com/ribot/android-guidelines)
+Sample Android app that we use at [Clarika](http://www.clarika.co) as a reference for new Android projects. It demonstrates the architecture.
 
 Libraries and tools included:
 
@@ -29,9 +29,8 @@ Libraries and tools included:
 
 ## Architecture
 
-This project follows ribot's Android architecture guidelines that are based on [MVP (Model View Presenter)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter). Read more about them [here](https://github.com/ribot/android-guidelines/blob/master/architecture_guidelines/android_architecture.md). 
-
-![](https://github.com/ribot/android-guidelines/raw/master/architecture_guidelines/architecture_diagram.png)
+This project follows clarika's Android architecture guidelines that are based on [MVP (Model View Presenter)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter). Read more about them [here](https://github.com/
+/android-guidelines/blob/master/architecture_guidelines/android_architecture.md). 
 
 ### How to implement a new screen following MVP
 
@@ -82,7 +81,8 @@ The following code analysis tools are set up on this project:
 ./gradlew findbugs
 ```
 
-* [Checkstyle](http://checkstyle.sourceforge.net/): It ensures that the code style follows [our Android code guidelines](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md#2-code-guidelines). See our [checkstyle config file](config/quality/checkstyle/checkstyle-config.xml).
+* [Checkstyle](http://checkstyle.sourceforge.net/): It ensures that the code style follows 
+See our [checkstyle config file](config/quality/checkstyle/checkstyle-config.xml).
 
 ```
 ./gradlew checkstyle
@@ -129,7 +129,8 @@ To upload a release build to Crashlytics run:
 
 To quickly start a new project from this boilerplate follow the next steps:
 
-* Download this [repository as a zip](https://github.com/ribot/android-boilerplate/archive/master.zip).
+* Download this [repository as a zip](https://github.com/
+/android-boilerplate/archive/master.zip).
 * Change the package name. 
   * Rename packages in main, androidTest and test using Android Studio.
   * In `app/build.gradle` file, `packageName` and `testInstrumentationRunner`.
@@ -145,7 +146,7 @@ To quickly start a new project from this boilerplate follow the next steps:
 ## License
 
 ```
-    Copyright 2015 Ribot Ltd.
+    Copyright 2016 Clarika Ltd.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
